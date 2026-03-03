@@ -1,0 +1,5 @@
+{
+  "name": "Aura Fitness",
+  "description": "A premium fitness and social activity tracking app with immersive statistics and community challenges.",
+  "requestFramePermissions": ["geolocation"]
+}
