@@ -1,20 +1,66 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🏋️ Aura Fitness – Mobil Uygulama
 
-# Run and deploy your AI Studio app
+Aura Fitness, kullanıcıların günlük egzersizlerini planlayabileceği, fiziksel aktivitelerini takip edebileceği ve sağlıklı yaşam alışkanlıkları kazanmasını destekleyen bir mobil fitness uygulamasıdır.  
+Uygulama **React Native + Expo** teknolojileri kullanılarak geliştirilmiştir.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/e332daa6-7ea1-441c-bf03-3a770e9820e4
+## 🚀 Yerelde Nasıl Çalıştırılır?
 
-## Run Locally
+### 🔧 Gerekli Kurulumlar
+Uygulamayı yerel ortamda çalıştırabilmek için aşağıdaki araçların kurulu olması gerekmektedir:
 
-**Prerequisites:**  Node.js
+- **Node.js (LTS sürüm)**
+  https://nodejs.org
+- **Git**
+  https://git-scm.com
+- **Expo CLI**
+  ```bash
+  npm install -g expo-cli
 
+Expo Go (mobil cihaz için)
+Android: Google Play Store
+iOS: App Store
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Alternatif olarak:
+
+Android Studio (Android Emulator için)
+
+Xcode (iOS Simulator – sadece macOS)
+
+📥 Projeyi Klonlama
+git clone https://github.com/nisanurakgul/aura-fitness.git
+cd aura-fitness
+📦 Bağımlılıkları Yükleme
+npm install
+▶️ Uygulamayı Çalıştırma
+expo start
+
+Açılan ekrandan:
+
+QR kod ile Expo Go
+
+Android Emulator
+
+iOS Simulator (Mac)
+
+kullanılarak uygulama çalıştırılabilir.
+
+🎥 YouTube Tanıtım Videosu
+
+Uygulama çalışır durumdayken çekilmiş, maksimum 1 dakika uzunluğunda tanıtım videosu:
+
+🔗 YouTube Linki:
+👉 https://youtube.com/shorts/8S3T-z0MeAU 
+
+🛠️ Kullanılan Teknolojiler
+
+React Native
+
+Expo
+
+JavaScript / TypeScript
+
+Expo Navigation
+
+Modern ve responsive UI bileşenleri
